@@ -25,15 +25,15 @@ public class Login extends JFrame {
 		frameC.setLayout(null);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		JComboBox<String> select = new JComboBox<String>(); /* caixa de seleção */
+		JComboBox<String> select = new JComboBox<String>(); /* caixa de seleï¿½ï¿½o */
 		JTextField JTusuario = new JTextField(); /* campo de login */
 		JTextField JTsenha = new JPasswordField(); /* campo de senha */
 		JButton JBlogin = new JButton();
-		/* botão e rótulo */
+		/* botï¿½o e rï¿½tulo */
 		JButton JBsair = new JButton();
 		JLabel JLusuario = new JLabel();
 		JLabel JLsenha = new JLabel();
-		/* box de seleção */
+		/* box de seleï¿½ï¿½o */
 		select.addItem("Cliente");
 		select.addItem("Funcionario");
 		select.addItem("Admin");
@@ -104,7 +104,7 @@ public class Login extends JFrame {
 		} else if (select.contentEquals("Funcionario")) {
 
 			if (unidades.size() == 0) {
-				JOptionPane.showMessageDialog(null, "Não existem unidades cadastradas");
+				JOptionPane.showMessageDialog(null, "Nï¿½o existem unidades cadastradas");
 				return;
 			}
 			for (int i = 0; i < unidades.size(); i++) {
@@ -113,7 +113,7 @@ public class Login extends JFrame {
 					dispose();
 					break;
 				} else {
-					JOptionPane.showMessageDialog(null, "Acesso inválido");
+					JOptionPane.showMessageDialog(null, "Acesso invï¿½lido");
 				}
 			}
 		} else if (select.contentEquals("Admin")) {
