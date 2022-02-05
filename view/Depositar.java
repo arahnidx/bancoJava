@@ -18,7 +18,7 @@ import br.com.poo.sysfi.model.Banco;
 
 import br.com.poo.sysfi.model.Conta;
 
-@SuppressWarnings("serial")
+@SuppressWarnings("serial") //commment
 public class Depositar extends JFrame {
 	public Depositar(Banco Nubank) {
 
