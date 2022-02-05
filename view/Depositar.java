@@ -92,7 +92,7 @@ public class Depositar extends JFrame {
 				contas.get(i).deposito(Deposito);
 				connectionConta.removerConta(contaVelha);
 				connectionConta.inserirConta(contas.get(i));
-				JOptionPane.showMessageDialog(null, "Saldo atual é de: " + contas.get(i).getSaldo());
+				JOptionPane.showMessageDialog(null, "Saldo atual ï¿½ de: " + contas.get(i).getSaldo());
 				valid = true;
 				dispose();
 				break;
